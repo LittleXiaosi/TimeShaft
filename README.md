@@ -34,3 +34,6 @@ Animation
 * `getLeftTimes`:获取剩余的动画播放次数
 
 PS:播放次数这个东西在想是否要保留,这个功能外部实现很简单,没有必要增加Animation本身的复杂度,目前实现是为了和css3的支持形式类似
+
+[demo点我](http://jscodelib.sinaapp.com/TimeShaft/index.html)
+[扩展的变换函数demo点我](http://jscodelib.sinaapp.com/TimeShaft/animTest.html)
