@@ -28,7 +28,7 @@ Animation
 * `play`:开始播放动画,会触发onBegin
 * `pause`:暂停动画,可以通过执行play继续播放
 * `stop`:终止动画,会触发onEnd
-* `getFPS:获取动画执行的帧率
+* `getFPS`:获取动画执行的帧率
 * `getProgress`:获取动画执行进度,100%为一次
 * `addTimes`:增加播放动画次数
 * `getLeftTimes`:获取剩余的动画播放次数
