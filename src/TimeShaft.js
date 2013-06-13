@@ -41,7 +41,7 @@
                 //如果handler顺利运行结束，则errorkey会是undefined，否则会记录下出错的函数
                 //在下一帧会移除该函数
                 errorKey = id;
-                if(h.handler(thisTime - h.startTime, h.prevRunTime) === true){
+                if(h.handler(thisTime - h.startTime, h.prevRunTime, thisTime) === true){
                     TimeShaft.remove(id);
                 }
                 errorKey = undefined;
@@ -113,6 +113,8 @@
             MAX_FPS = n;
         }
     };
+
+
     var NAME = 'TimeShaft';
     nameSpace[NAME] = TimeShaft;
 }(window))
